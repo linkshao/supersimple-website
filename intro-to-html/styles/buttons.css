@@ -1,0 +1,46 @@
+.red {
+  background-color: rgb(141, 10, 10);
+  color: white;
+  border: none;
+  height: 36px;
+  font-size: 18px;
+  width: 105px;
+  font-weight: lighter;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.red:hover {
+  opacity: 0.6;
+  color: black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.red:active {
+  opacity: 0.3;
+  color: black;
+}
+
+.white {
+  background-color: white;
+  border-color: lightblue;
+  color: lightblue;
+  width: 60px;
+  height: 36px;
+  border-radius: 2px;
+  cursor: pointer;
+  border-style: solid;
+  margin-right: 8px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  width: 60px;
+  height: 36px;
+  cursor: pointer;
+}

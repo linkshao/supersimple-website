@@ -1,0 +1,48 @@
+p {
+  font-family: ROBOTO, Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+  width: 220px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.video-description {
+  font-size: 14px;
+  width: 220px;
+  color: rgb(96, 96, 96);
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.video-warning {
+  margin-bottom: 50px;
+  font-size: 12px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.shop-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
